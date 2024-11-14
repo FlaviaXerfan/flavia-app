@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#191414",
         padding: 16,
-        marginTop: 40,
+        
     },
 
     header: {
@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "flex-start",
         marginBottom: 20,
-        marginTop: 20,
+        marginTop: 60,
     },
 
     headerIcons: {
@@ -53,6 +53,7 @@ export const styles = StyleSheet.create({
         color: "#000",
     },
 
+    
     highlightsSection: {
         flexDirection: "row",
         flexWrap: "wrap",
@@ -178,6 +179,7 @@ export const styles = StyleSheet.create({
         padding: 8,
         marginHorizontal: 16,
         borderRadius: 8,
+        marginBottom: -9,
     },
 
     musicRowImage: {
@@ -215,7 +217,7 @@ export const styles = StyleSheet.create({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundColor: "rgba(0, 0, 0, 0)",
+        backgroundColor: "rgba(0, 0, 0, 0.8)",
         flexDirection: "row",
         justifyContent: "space-around",
         paddingVertical: 10,

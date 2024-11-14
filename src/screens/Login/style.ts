@@ -10,12 +10,12 @@ export const styles = StyleSheet.create({
 
     logoImage: {
         alignSelf: "center",
-        width: 100,
-        height: 100,
+        width: 60,
+        height: 60,
     },
 
     title: {
-        fontSize: 24,
+        fontSize: 35,
         color: "#FFFFFF",
         marginBottom: 24,
         marginTop: 15,

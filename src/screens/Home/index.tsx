@@ -119,7 +119,7 @@ export const Home = () => {
                     <Icon name="devices" size={24} color="#FFFFFF" />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.iconRowButton}>
-                    <Icon name="check-circle" size={24} color="#1ed760" />
+                    <Icon name="add-circle-outline" size={24} color="#ffff" />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.iconRowButton}>
                     <Icon name="play-circle" size={24} color="#FFFFFF" />
