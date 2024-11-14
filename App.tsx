@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <StatusBar style="light" backgroundColor='##191414'/>
-      {/* <Login /> */}
-      <Home/>
+      <Login /> 
+      {/* <Home/> */}
     </>
   );
 }
