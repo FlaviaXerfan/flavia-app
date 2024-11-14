@@ -87,7 +87,7 @@ export const styles = StyleSheet.create({
 
     newReleaseArtistName: {
         color: "#FFFFFF",
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: "bold",
     },
 
@@ -130,6 +130,7 @@ export const styles = StyleSheet.create({
         marginRight: 15,
     },
 
+
     playlistContainer: {
         paddingLeft: 20,
         paddingBottom: 20,
@@ -164,6 +165,7 @@ export const styles = StyleSheet.create({
         marginBottom: 15,
         marginTop: 10,
     },
+
 
     musicRow: {
         position: "absolute",
@@ -207,6 +209,7 @@ export const styles = StyleSheet.create({
         marginLeft: 20,
     },
 
+    
     navigationBar: {
         position: "absolute",
         bottom: 0,

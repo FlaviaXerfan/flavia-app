@@ -1,14 +1,12 @@
-import madonnaImage from "../../assets/Albuns/playlists/madonna.jpg";
-import mariliaImage from "../../assets/Albuns/playlists/marilia-mendoca.jpg";
-import metallicaImage from "../../assets/Albuns/playlists/metallica.jpg";
-import michaelJacksonImage from "../../assets/Albuns/playlists/michael-jackson.jpg";
-import pinkFloydImage from "../../assets/Albuns/playlists/pink-floyd.webp";
-import queemImage from "../../assets/Albuns/playlists/queem.jpg";
+import madonnaImage from './Playlists/madonna.jpg';
+import mariliaImage from "./Playlists/marilia-mendoca.jpg";
+import metallicaImage from "./Playlists/metallica.jpg";
+import michaelJacksonImage from "./Playlists/michael-jackson.jpg";
+import pinkFloydImage from "./Playlists/pink-floyd.webp";
+import queemImage from "./Playlists/queem.jpg";
 
 export const DataAPI = [
 
-    
-    
         {
             id: "1",
             title: "The Dark Side of the Moon",

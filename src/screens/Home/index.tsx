@@ -70,53 +70,30 @@ export const Home = () => {
 
                 <View style={styles.newReleaseContainer}>
                     <View style={styles.newReleaseArtistInfo}>
-                        <Image
-                            source={luanaImage}
-                            style={styles.newReleaseArtistImage}
-                        />
-                        <Text style={styles.newReleaseArtistText}>
-                            Novo lançamento de{" "}
-                        </Text>
-                        <Text style={styles.newReleaseArtistName}>
-                            Luana Prado
-                        </Text>
+                        <Image source={luanaImage} style={styles.newReleaseArtistImage} />
+                        <Text style={styles.newReleaseArtistText}> Novo lançamento de{" "} </Text>
+                        <Text style={styles.newReleaseArtistName}> Luana Prado </Text>
                     </View>
 
                     <View style={styles.newReleaseBox}>
-                        <Image
-                            source={luanaPradoImage}
-                            style={styles.newReleaseImage}
-                        />
+                        <Image source={luanaPradoImage} style={styles.newReleaseImage}/>
                         <View style={styles.newReleaseInfo}>
-                            <Text style={styles.newReleaseTitle}>
-                                RAIZ as melhores
-                            </Text>
-                            <Text style={styles.newReleaseDescription}>
-                                Single • Me leva pra casa
-                            </Text>
+                            <Text style={styles.newReleaseTitle}>RAIZ as melhores</Text>
+                            <Text style={styles.newReleaseDescription}>Single • Me leva pra casa</Text>
                         </View>
+
                         <View style={styles.newReleaseIcons}>
                             <TouchableOpacity style={{ marginRight: 10 }}>
-                                <Icon
-                                    name="add-circle-outline"
-                                    size={28}
-                                    color="#FFFFFF"
-                                />
+                                <Icon name="add-circle-outline" size={28} color="#FFFFFF"/>
                             </TouchableOpacity>
                             <TouchableOpacity style={{ marginRight: 10 }}>
-                                <Icon
-                                    name="play-circle-outline"
-                                    size={28}
-                                    color="#FFFFFF"
-                                />
+                                <Icon name="play-circle-outline" size={28} color="#FFFFFF"/>
                             </TouchableOpacity>
                         </View>
                     </View>
                 </View>
 
-                <Text style={styles.sectionTitle}>
-                    Sugestões de álbuns pra você
-                </Text>
+                <Text style={styles.sectionTitle}>Sugestões de álbuns pra você</Text>
 
                 <FlatList
                     horizontal={true}
@@ -124,26 +101,19 @@ export const Home = () => {
                     keyExtractor={(dados) => dados.id.toString()}
                     renderItem={({ item }) => (
                         <View style={styles.card}>
-                            <Image
-                                source={item.image}
-                                style={styles.cardImage}
-                            />
+                            <Image source={item.image} style={styles.cardImage}/>
                             <Text style={styles.cardTitle}>{item.title}</Text>
-                            <Text style={styles.cardArtists}>{item.artists}
-                            </Text>
+                            <Text style={styles.cardArtists}>{item.artists} </Text>
                         </View>
                     )}
-                    contentContainerStyle={styles.playlistContainer}
-                />
+                    contentContainerStyle={styles.playlistContainer}/>
             </ScrollView>
 
             <View style={styles.musicRow}>
                 <Image source={fdsImage} style={styles.musicRowImage} />
                 <View style={styles.musicRowInfo}>
                     <Text style={styles.musicRowTitle}>Final de Semana</Text>
-                    <Text style={styles.musicRowArtist}>
-                        Papatinho, Seu Jorge
-                    </Text>
+                    <Text style={styles.musicRowArtist}>Papatinho, Seu Jorge </Text>
                 </View>
                 <TouchableOpacity style={styles.iconRowButton}>
                     <Icon name="devices" size={24} color="#FFFFFF" />

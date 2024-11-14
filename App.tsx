@@ -7,9 +7,9 @@ export default function App() {
 
   return (
     <>
-      <StatusBar style="auto" />
-      {/* <Login /> */}
-      <Home/>
+      <StatusBar style="auto"/>
+      <Login />
+      {/* <Home/> */}
     </>
   );
 }
