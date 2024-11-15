@@ -43,9 +43,9 @@ export const TextInputField = ({
                         onPress={() => setViewPassword(!viewPassword)}
                     >
                         {viewPassword ? (
-                            <Icon name="eye" type="feather" size={24} color="#000" />
-                        ) : (
                             <Icon name="eye-off" type="feather" size={24} color="#000" />
+                        ) : (
+                            <Icon name="eye" type="feather" size={24} color="#000" />
                         )}
                     </TouchableOpacity>
                 )}
